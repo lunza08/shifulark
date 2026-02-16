@@ -13,7 +13,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Замените на ваш токен от BotFather
-TOKEN = 'YOUR_BOT_TOKEN_HERE'
+TOKEN = '7983667482:AAHitk8Pm2KuW2e6qt5KT8urtjsN56UChfA'
 
 # Папка для временных файлов
 DOWNLOAD_FOLDER = 'downloads'
