@@ -15,5 +15,8 @@ COPY video_downloader_bot.py .
 # Создаем директорию для загрузок
 RUN mkdir -p downloads
 
+# Переменная окружения для токена (будет передана Railway)
+ENV TOKEN=${TOKEN}
+
 # Запускаем бота
-CMD ["python", "video_downloader_bot.py"]
+CMD ["python", "-u", "video_downloader_bot.py"]
