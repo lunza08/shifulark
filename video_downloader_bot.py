@@ -13,7 +13,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Получаем токен из переменных окружения или используем значение по умолчанию
-TOKEN = os.getenv('TOKEN', 'YOUR_BOT_TOKEN_HERE')
+TOKEN = os.getenv('TOKEN', '7983667482:AAHitk8Pm2KuW2e6qt5KT8urtjsN56UChfA')
 
 # Папка для временных файлов
 DOWNLOAD_FOLDER = 'downloads'
